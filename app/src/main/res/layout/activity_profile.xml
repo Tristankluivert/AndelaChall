@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:background="@color/colorPrimary"
+             android:id="@+id/image"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="My Profile"
+            android:layout_marginStart="30dp"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+ <ImageView
+     android:layout_width="100dp"
+     android:layout_height="100dp"
+     android:src="@drawable/pic"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="50dp"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Joy Obowaiti"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="180dp"
+        android:background="#2e2d2d"
+        ></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track : Android"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country : Nigeria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: JoyObowaiti@gmail.com"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slack Username: Joy Obowaiti"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number : 08076823013"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        />
+
+</RelativeLayout>
